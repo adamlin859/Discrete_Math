@@ -21,13 +21,13 @@ Premises P_1, P_2, ... P_n and conclusion is valid, when (P_1 ^ P_2 ... ^ P_n) -
 
 Rules of inference
 (p ^ (p->q)) -> q   Modus ponens
-(~q ^ (p->q)) -> ~p  Modus tollens
-((p -> q) ^ (q->r)) -> (p -> r)  Hypothetical syllogism
-((p V q) ^ ~q) -> q  Disjunctive syllogism 
-p -> (p v q)  Addition
-(p ^ q) -> p  Simplification
-((p) ^ (q)) -> (p ^ q)  Conjunction
-((p v q) ^ (~ p v r)) -> (q v r)  Resolution
+(~q ^ (p->q)) -> ~p  Modus tollens  
+((p -> q) ^ (q->r)) -> (p -> r)  Hypothetical syllogism  
+((p V q) ^ ~q) -> q  Disjunctive syllogism  
+p -> (p v q)  Addition  
+(p ^ q) -> p  Simplification  
+((p) ^ (q)) -> (p ^ q)  Conjunction  
+((p v q) ^ (~ p v r)) -> (q v r)  Resolution  
 
 #### Resolution 
 
