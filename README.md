@@ -23,7 +23,7 @@ Rules of inference
 (p ^ (p->q)) -> q   Modus ponens
 (~q ^ (p->q)) -> ~p  Modus tollens  
 ((p -> q) ^ (q->r)) -> (p -> r)  Hypothetical syllogism  
-((p V q) ^ ~q) -> q  Disjunctive syllogism  
+((p v q) ^ ~q) -> q  Disjunctive syllogism  
 p -> (p v q)  Addition  
 (p ^ q) -> p  Simplification  
 ((p) ^ (q)) -> (p ^ q)  Conjunction  
